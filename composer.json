@@ -1,0 +1,38 @@
+{
+  "name": "pure-aliyun-openapi-php-sdk/pure-aliyun-open-api-push",
+  "description": "The Push SDK for Aliyun OpenAPI",
+  "keywords": [
+    "aliyun",
+    "core",
+    "php",
+    "sdk"
+  ],
+  "homepage": "https://github.com/m3yang/pure-aliyun-php-sdk-push",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "m3yang",
+      "email": "fokt2003@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "pure-aliyun-openapi-php-sdk/pure-aliyun-open-api-core": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AliPure\\AliPush\\Request\\V20160801\\": "src/Push/Request/V20160801"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+    }
+  }
+}
