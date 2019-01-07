@@ -25,6 +25,7 @@ $appKey = 'xxx';
 
 $iClientProfile = \AliPure\AliCore\Profile\DefaultProfile::getProfile("cn-hangzhou", $accessKeyId, $accessKeySecret);
 $client = new \AliPure\AliCore\DefaultAcsClient($iClientProfile);
+$request = new \AliPure\AliPush\Request\V20160801\PushRequest();
 
 // 推送目标
 $request->setAppKey($appKey);
